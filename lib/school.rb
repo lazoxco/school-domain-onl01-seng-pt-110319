@@ -1,7 +1,8 @@
 # code here!
 class School # The School class would by referred to as the model in the domain model context
 
-  attr_accessor :roster, :student_name
+  attr_accessor :student_name
+  attr_reader :roster
   attr_writer :grade
   
   def initialize(roster)
